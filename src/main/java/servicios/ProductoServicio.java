@@ -12,7 +12,7 @@ import interfaces.ProductoApi;
 import modelo.Producto;
 
 public class ProductoServicio implements ProductoApi {
-  private static final String API_URL = "https://fakestoreapi.com/products";
+  private static final String API_URL = "https://myproductapiforjava.onrender.com/products";
   private final HttpClient client;
   private final ObjectMapper objectMapper;
 

@@ -12,6 +12,7 @@ public class ProductoApp {
     ProductoServicio ps = new ProductoServicio();
 
     Producto[] productos = ps.getAllProductos();
+    Producto prod = ps.getProductoId(34);
 
     for(Producto p : productos){
       System.out.println(p);
@@ -19,7 +20,6 @@ public class ProductoApp {
 
     System.out.println("-------------------------------------------\n");
 
-    // Producto prod = ps.getProductoId(1);
-    // System.out.println(prod);
+    System.out.println(prod);
   }
 }

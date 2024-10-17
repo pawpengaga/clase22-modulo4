@@ -25,8 +25,8 @@ public class ProductoServicioTest {
     assertNotNull(productos);
     // Que existan productos en el array
     assertTrue(productos.length > 0);
-    // Que los productos sean iguales a 20
-    assertTrue(productos.length == 20);
+    // Que los productos sean iguales a 49
+    assertTrue(productos.length == 49);
 
   }
 
